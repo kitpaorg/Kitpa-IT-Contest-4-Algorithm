@@ -62,6 +62,7 @@
 * 지문: `./statement/statement.md`
 * 데이터: `./IO`
 * 밸리데이터: `./validator/validator.cpp`
+* 체커: `./checker/check.cpp` (Polygon의 std::nyesno.cpp와 동일합니다.)
 
 ## E (초등부 3번, 고등부 3번)
 
