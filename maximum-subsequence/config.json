@@ -1,0 +1,465 @@
+{
+    "problem_title": "물류 작업 최적화",
+    "problem_type": "stdio",
+    "checker": "check.cpp",
+    "checker_language": "cpp17",
+    "validator": "validator.cpp",
+    "validator_language": "cpp17",
+    "subtask": true,
+    "limits": {
+        "time": 2000,
+        "memory": 268435456,
+        "factor": {}
+    },
+    "enable_language": [],
+    "statements": [
+        {
+            "name": "problem.md",
+            "label": "한국어"
+        }
+    ],
+    "solutions": [
+        {
+            "name": "gubshig-ac.cpp",
+            "language": "cpp17",
+            "type": "AC"
+        },
+        {
+            "name": "gubshig_task1.cpp",
+            "language": "cpp17",
+            "type": "WA/TLE/MLE/FAIL"
+        },
+        {
+            "name": "gubshig_task2.cpp",
+            "language": "cpp17",
+            "type": "TLE"
+        },
+        {
+            "name": "gubshig_task3.cpp",
+            "language": "cpp17",
+            "type": "TLE"
+        },
+        {
+            "name": "gubshig_task4.cpp",
+            "language": "cpp17",
+            "type": "TLE"
+        },
+        {
+            "name": "gubshig_task5.cpp",
+            "language": "cpp17",
+            "type": "TLE"
+        },
+        {
+            "name": "gubshig_task5_quad.cpp",
+            "language": "cpp17",
+            "type": "TLE"
+        },
+        {
+            "name": "poro_AC.cpp",
+            "language": "cpp17",
+            "type": "AC"
+        },
+        {
+            "name": "poro_t1.cpp",
+            "language": "cpp17",
+            "type": "WA/TLE/MLE/FAIL"
+        },
+        {
+            "name": "poro_t2.cpp",
+            "language": "cpp17",
+            "type": "WA/TLE/MLE/FAIL"
+        },
+        {
+            "name": "poro_t3.cpp",
+            "language": "cpp17",
+            "type": "WA/TLE/MLE/FAIL"
+        },
+        {
+            "name": "poro_t4.cpp",
+            "language": "cpp17",
+            "type": "WA/TLE/MLE/FAIL"
+        },
+        {
+            "name": "poro_t5.cpp",
+            "language": "cpp17",
+            "type": "WA/TLE/MLE/FAIL"
+        },
+        {
+            "name": "solution.cpp",
+            "language": "cpp17",
+            "type": "MCS"
+        },
+        {
+            "name": "sum-min.rb",
+            "language": "",
+            "type": "AC"
+        }
+    ],
+    "generators": [
+        {
+            "name": "countercase_gen.cpp",
+            "language": "cpp17",
+            "alias": "countercase_gen"
+        },
+        {
+            "name": "rand_gen.cpp",
+            "language": "cpp17",
+            "alias": "rand_gen"
+        },
+        {
+            "name": "rand_intv_gen.cpp",
+            "language": "cpp17",
+            "alias": "rand_intv_gen"
+        },
+        {
+            "name": "__pps_generator.py",
+            "language": "py3",
+            "alias": "__pps_generator"
+        }
+    ],
+    "subtask_group": [
+        {
+            "name": "1",
+            "description": "",
+            "score": 11,
+            "dependencies": []
+        },
+        {
+            "name": "2",
+            "description": "",
+            "score": 12,
+            "dependencies": []
+        },
+        {
+            "name": "3",
+            "description": "",
+            "score": 13,
+            "dependencies": [
+                "2"
+            ]
+        },
+        {
+            "name": "4",
+            "description": "",
+            "score": 14,
+            "dependencies": [
+                "3",
+                "2"
+            ]
+        },
+        {
+            "name": "5",
+            "description": "",
+            "score": 15,
+            "dependencies": [
+                "1"
+            ]
+        },
+        {
+            "name": "6",
+            "description": "",
+            "score": 35,
+            "dependencies": [
+                "4",
+                "5",
+                "1",
+                "2",
+                "3"
+            ]
+        }
+    ],
+    "genscript": [
+        {
+            "script": "__pps_generator 0",
+            "subtask_group": "6",
+            "description": "",
+            "is_example": true,
+            "only_deploy": false
+        },
+        {
+            "script": "__pps_generator 1",
+            "subtask_group": "6",
+            "description": "",
+            "is_example": true,
+            "only_deploy": false
+        },
+        {
+            "script": "rand_intv_gen 1 300000 0 1000",
+            "subtask_group": "1",
+            "description": "",
+            "is_example": false,
+            "only_deploy": false
+        },
+        {
+            "script": "rand_intv_gen 1 300000 500 1000",
+            "subtask_group": "1",
+            "description": "",
+            "is_example": false,
+            "only_deploy": false
+        },
+        {
+            "script": "rand_intv_gen 1 300000 1000 1000",
+            "subtask_group": "1",
+            "description": "",
+            "is_example": false,
+            "only_deploy": false
+        },
+        {
+            "script": "rand_intv_gen 1 1 0 1000",
+            "subtask_group": "1",
+            "description": "",
+            "is_example": false,
+            "only_deploy": false
+        },
+        {
+            "script": "rand_intv_gen 1 1 1000 1000",
+            "subtask_group": "1",
+            "description": "",
+            "is_example": false,
+            "only_deploy": false
+        },
+        {
+            "script": "rand_intv_gen 1 50 -1000 1000",
+            "subtask_group": "2",
+            "description": "",
+            "is_example": false,
+            "only_deploy": false
+        },
+        {
+            "script": "rand_intv_gen 2 50 -1000 1000",
+            "subtask_group": "2",
+            "description": "",
+            "is_example": false,
+            "only_deploy": false
+        },
+        {
+            "script": "rand_gen 1 50 600 1000",
+            "subtask_group": "2",
+            "description": "",
+            "is_example": false,
+            "only_deploy": false
+        },
+        {
+            "script": "rand_gen 2 50 600 1000",
+            "subtask_group": "2",
+            "description": "",
+            "is_example": false,
+            "only_deploy": false
+        },
+        {
+            "script": "rand_gen 1 50 0 400",
+            "subtask_group": "2",
+            "description": "",
+            "is_example": false,
+            "only_deploy": false
+        },
+        {
+            "script": "rand_gen 2 50 0 400",
+            "subtask_group": "2",
+            "description": "",
+            "is_example": false,
+            "only_deploy": false
+        },
+        {
+            "script": "rand_intv_gen 1 500 -1000 1000",
+            "subtask_group": "3",
+            "description": "",
+            "is_example": false,
+            "only_deploy": false
+        },
+        {
+            "script": "rand_intv_gen 2 500 -1000 1000",
+            "subtask_group": "3",
+            "description": "",
+            "is_example": false,
+            "only_deploy": false
+        },
+        {
+            "script": "rand_gen 1 500 600 1000",
+            "subtask_group": "3",
+            "description": "",
+            "is_example": false,
+            "only_deploy": false
+        },
+        {
+            "script": "rand_gen 2 500 600 1000",
+            "subtask_group": "3",
+            "description": "",
+            "is_example": false,
+            "only_deploy": false
+        },
+        {
+            "script": "rand_gen 1 500 0 400",
+            "subtask_group": "3",
+            "description": "",
+            "is_example": false,
+            "only_deploy": false
+        },
+        {
+            "script": "rand_gen 2 500 0 400",
+            "subtask_group": "3",
+            "description": "",
+            "is_example": false,
+            "only_deploy": false
+        },
+        {
+            "script": "rand_intv_gen 1 5000 -1000 1000",
+            "subtask_group": "4",
+            "description": "",
+            "is_example": false,
+            "only_deploy": false
+        },
+        {
+            "script": "rand_intv_gen 2 5000 -1000 1000",
+            "subtask_group": "4",
+            "description": "",
+            "is_example": false,
+            "only_deploy": false
+        },
+        {
+            "script": "rand_gen 1 5000 600 1000",
+            "subtask_group": "4",
+            "description": "",
+            "is_example": false,
+            "only_deploy": false
+        },
+        {
+            "script": "rand_gen 2 5000 600 1000",
+            "subtask_group": "4",
+            "description": "",
+            "is_example": false,
+            "only_deploy": false
+        },
+        {
+            "script": "rand_gen 1 5000 0 400",
+            "subtask_group": "4",
+            "description": "",
+            "is_example": false,
+            "only_deploy": false
+        },
+        {
+            "script": "rand_gen 2 5000 0 400",
+            "subtask_group": "4",
+            "description": "",
+            "is_example": false,
+            "only_deploy": false
+        },
+        {
+            "script": "rand_gen 1 300000 0 5",
+            "subtask_group": "5",
+            "description": "",
+            "is_example": false,
+            "only_deploy": false
+        },
+        {
+            "script": "rand_gen 2 300000 0 5",
+            "subtask_group": "5",
+            "description": "",
+            "is_example": false,
+            "only_deploy": false
+        },
+        {
+            "script": "rand_gen 1 300000 5 5",
+            "subtask_group": "5",
+            "description": "",
+            "is_example": false,
+            "only_deploy": false
+        },
+        {
+            "script": "rand_gen 2 300000 5 5",
+            "subtask_group": "5",
+            "description": "",
+            "is_example": false,
+            "only_deploy": false
+        },
+        {
+            "script": "rand_intv_gen 2 300000 0 1000",
+            "subtask_group": "5",
+            "description": "",
+            "is_example": false,
+            "only_deploy": false
+        },
+        {
+            "script": "countercase_gen 1 100 0 5",
+            "subtask_group": "5",
+            "description": "",
+            "is_example": false,
+            "only_deploy": false
+        },
+        {
+            "script": "countercase_gen 2 100 0 5",
+            "subtask_group": "5",
+            "description": "",
+            "is_example": false,
+            "only_deploy": false
+        },
+        {
+            "script": "countercase_gen 1 1000 0 1",
+            "subtask_group": "5",
+            "description": "",
+            "is_example": false,
+            "only_deploy": false
+        },
+        {
+            "script": "countercase_gen 1 300000 100 5",
+            "subtask_group": "5",
+            "description": "",
+            "is_example": false,
+            "only_deploy": false
+        },
+        {
+            "script": "countercase_gen 1 300000 1000 1",
+            "subtask_group": "5",
+            "description": "",
+            "is_example": false,
+            "only_deploy": false
+        },
+        {
+            "script": "rand_intv_gen 1 300000 -1000 1000",
+            "subtask_group": "6",
+            "description": "",
+            "is_example": false,
+            "only_deploy": false
+        },
+        {
+            "script": "rand_intv_gen 2 300000 -1000 1000",
+            "subtask_group": "6",
+            "description": "",
+            "is_example": false,
+            "only_deploy": false
+        },
+        {
+            "script": "rand_gen 1 300000 600 1000",
+            "subtask_group": "6",
+            "description": "",
+            "is_example": false,
+            "only_deploy": false
+        },
+        {
+            "script": "rand_gen 2 300000 600 1000",
+            "subtask_group": "6",
+            "description": "",
+            "is_example": false,
+            "only_deploy": false
+        },
+        {
+            "script": "rand_gen 1 300000 0 400",
+            "subtask_group": "6",
+            "description": "",
+            "is_example": false,
+            "only_deploy": false
+        },
+        {
+            "script": "rand_gen 2 300000 0 400",
+            "subtask_group": "6",
+            "description": "",
+            "is_example": false,
+            "only_deploy": false
+        }
+    ],
+    "versions": {
+        "config": 1,
+        "repository": 1
+    },
+    "deploy_uuid": "7000da4e-22ab-4dc9-a20e-a6c97da3d2e2"
+}
