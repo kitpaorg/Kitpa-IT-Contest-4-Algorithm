@@ -25,7 +25,7 @@
 * 시간제한: `1초`
 * 메모리제한: `256MB`
 * 출제자: [`ai4youej`](https://www.acmicpc.net/user/ai4youej)
-* 경로: `parking-log`
+* 경로: `a_parking-log`
 * 지문: `./statement/statement.md`
 * 데이터: `./IO`
 * 밸리데이터: `./validator/validator.cpp`
@@ -36,7 +36,7 @@
 * 시간제한: `1초`
 * 메모리제한: `256MB`
 * 출제자: [`flappybird`](https://www.acmicpc.net/user/flappybird)
-* 경로: `blocking`
+* 경로: `b_blocking`
 * 지문: `./statement/statement.md`
 * 데이터: `./IO`
 * 밸리데이터: `./validator/validator.cpp`
@@ -47,7 +47,7 @@
 * 시간제한: `2초`
 * 메모리제한: `256MB`
 * 출제자: [`flappybird`](https://www.acmicpc.net/user/flappybird)
-* 경로: `maximum-subsequence`
+* 경로: `c_maximum-subsequence`
 * 지문: `./statement/statement.md`
 * 데이터: `./IO`
 * 밸리데이터: `./validator/validator.cpp`
@@ -58,7 +58,7 @@
 * 시간제한: `4초`
 * 메모리제한: `1024MB`
 * 출제자: [`kwoncycle`](https://www.acmicpc.net/user/kwoncycle)
-* 경로: `88888`
+* 경로: `d_88888`
 * 지문: `./statement/statement.md`
 * 데이터: `./IO`
 * 밸리데이터: `./validator/validator.cpp`
@@ -69,7 +69,7 @@
 * 시간제한: `2초`
 * 메모리제한: `256MB`
 * 출제자: [`hjroh0315`](https://www.acmicpc.net/user/hjroh0315)
-* 경로: `logic-and-queries`
+* 경로: `e_logic-and-queries`
 * 지문: `./statement/statement.md`
 * 데이터: `./IO`
 * 밸리데이터: `./validator/vald.cpp`
@@ -80,7 +80,7 @@
 * 시간제한: `3초`
 * 메모리제한: `1024MB`
 * 출제자: [`hjroh0315`](https://www.acmicpc.net/user/hjroh0315)
-* 경로: `stair-walks`
+* 경로: `f_stair-walks`
 * 지문: `./statement/statement.md`
 * 데이터: `./IO`
 * 밸리데이터: `./validator/vald.cpp`
@@ -91,7 +91,7 @@
 * 시간제한: `5초`
 * 메모리제한: `1024MB`
 * 출제자: [`hjroh0315`](https://www.acmicpc.net/user/hjroh0315)
-* 경로: `logic-counting-and-queries`
+* 경로: `g_logic-counting-and-queries`
 * 지문: `./statement/statement.md`
 * 데이터: `./IO`
 * 밸리데이터: `./validator/vald.cpp`
