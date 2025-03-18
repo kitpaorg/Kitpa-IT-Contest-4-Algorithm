@@ -1,0 +1,452 @@
+{
+    "problem_title": "계단 보행",
+    "problem_type": "stdio",
+    "checker": "check.cpp",
+    "checker_language": "cpp17",
+    "validator": "vald.cpp",
+    "validator_language": "cpp17",
+    "subtask": true,
+    "limits": {
+        "time": 3000,
+        "memory": 1073741824,
+        "factor": {}
+    },
+    "enable_language": [],
+    "statements": [
+        {
+            "name": "problem.md",
+            "label": "한국어"
+        }
+    ],
+    "solutions": [
+        {
+            "name": "dayo_ac.cpp",
+            "language": "cpp17",
+            "type": "AC"
+        },
+        {
+            "name": "dayo_python_ac.py",
+            "language": "py3",
+            "type": "AC"
+        },
+        {
+            "name": "dayo_tle.cpp",
+            "language": "cpp17",
+            "type": "TLE"
+        },
+        {
+            "name": "gubshig_ac.cpp",
+            "language": "cpp17",
+            "type": "AC"
+        },
+        {
+            "name": "gubshig_tle.cpp",
+            "language": "cpp17",
+            "type": "TLE/MLE"
+        },
+        {
+            "name": "gubshig_tle2.cpp",
+            "language": "cpp17",
+            "type": "TLE"
+        },
+        {
+            "name": "mcs.cpp",
+            "language": "cpp17",
+            "type": "MCS"
+        }
+    ],
+    "generators": [
+        {
+            "name": "gen_cyclic.cpp",
+            "language": "cpp17",
+            "alias": "gen_cyclic"
+        },
+        {
+            "name": "gen_key.cpp",
+            "language": "cpp17",
+            "alias": "gen_key"
+        },
+        {
+            "name": "gen_rand.cpp",
+            "language": "cpp17",
+            "alias": "gen_rand"
+        },
+        {
+            "name": "gen_randh.cpp",
+            "language": "cpp17",
+            "alias": "gen_randh"
+        },
+        {
+            "name": "gen_sloop1.cpp",
+            "language": "cpp17",
+            "alias": "gen_sloop1"
+        },
+        {
+            "name": "gen_sloop2.cpp",
+            "language": "cpp17",
+            "alias": "gen_sloop2"
+        },
+        {
+            "name": "gen_walks.cpp",
+            "language": "cpp17",
+            "alias": "gen_walks"
+        },
+        {
+            "name": "__pps_generator.py",
+            "language": "py3",
+            "alias": "__pps_generator"
+        }
+    ],
+    "subtask_group": [
+        {
+            "name": "1",
+            "description": "",
+            "score": 11,
+            "dependencies": []
+        },
+        {
+            "name": "2",
+            "description": "",
+            "score": 28,
+            "dependencies": []
+        },
+        {
+            "name": "3",
+            "description": "",
+            "score": 61,
+            "dependencies": [
+                "2",
+                "1"
+            ]
+        }
+    ],
+    "genscript": [
+        {
+            "script": "__pps_generator 0",
+            "subtask_group": "1",
+            "description": "",
+            "is_example": true,
+            "only_deploy": false
+        },
+        {
+            "script": "gen_rand 50 2000 2",
+            "subtask_group": "1",
+            "description": "",
+            "is_example": false,
+            "only_deploy": false
+        },
+        {
+            "script": "gen_rand 50 2000 3",
+            "subtask_group": "1",
+            "description": "",
+            "is_example": false,
+            "only_deploy": false
+        },
+        {
+            "script": "gen_rand 50 2000 4",
+            "subtask_group": "1",
+            "description": "",
+            "is_example": false,
+            "only_deploy": false
+        },
+        {
+            "script": "gen_randh 500 2000 2",
+            "subtask_group": "1",
+            "description": "",
+            "is_example": false,
+            "only_deploy": false
+        },
+        {
+            "script": "gen_randh 500 2000 3",
+            "subtask_group": "1",
+            "description": "",
+            "is_example": false,
+            "only_deploy": false
+        },
+        {
+            "script": "gen_randh 500 2000 4",
+            "subtask_group": "1",
+            "description": "",
+            "is_example": false,
+            "only_deploy": false
+        },
+        {
+            "script": "gen_randh 1000 2000 10",
+            "subtask_group": "1",
+            "description": "",
+            "is_example": false,
+            "only_deploy": false
+        },
+        {
+            "script": "gen_randh 1000 2000 50",
+            "subtask_group": "1",
+            "description": "",
+            "is_example": false,
+            "only_deploy": false
+        },
+        {
+            "script": "gen_randh 1000 2000 100",
+            "subtask_group": "1",
+            "description": "",
+            "is_example": false,
+            "only_deploy": false
+        },
+        {
+            "script": "__pps_generator 1",
+            "subtask_group": "1",
+            "description": "File \"snipe_f_small.in\"",
+            "is_example": false,
+            "only_deploy": false
+        },
+        {
+            "script": "gen_randh 1000 1000 100",
+            "subtask_group": "1",
+            "description": "",
+            "is_example": false,
+            "only_deploy": false
+        },
+        {
+            "script": "gen_walks 2500 100000 gern",
+            "subtask_group": "2",
+            "description": "",
+            "is_example": false,
+            "only_deploy": false
+        },
+        {
+            "script": "gen_walks 5000 100000 fbuf",
+            "subtask_group": "2",
+            "description": "",
+            "is_example": false,
+            "only_deploy": false
+        },
+        {
+            "script": "gen_walks 25000 100000 asdf",
+            "subtask_group": "2",
+            "description": "",
+            "is_example": false,
+            "only_deploy": false
+        },
+        {
+            "script": "gen_walks 25000 100000 gern",
+            "subtask_group": "2",
+            "description": "",
+            "is_example": false,
+            "only_deploy": false
+        },
+        {
+            "script": "gen_walks 50000 100000 fbuf",
+            "subtask_group": "2",
+            "description": "",
+            "is_example": false,
+            "only_deploy": false
+        },
+        {
+            "script": "gen_walks 50000 100000 faof",
+            "subtask_group": "2",
+            "description": "",
+            "is_example": false,
+            "only_deploy": false
+        },
+        {
+            "script": "gen_walks 50000 50000 fwnof",
+            "subtask_group": "2",
+            "description": "",
+            "is_example": false,
+            "only_deploy": false
+        },
+        {
+            "script": "gen_walks 50000 50000 vgbnu",
+            "subtask_group": "2",
+            "description": "",
+            "is_example": false,
+            "only_deploy": false
+        },
+        {
+            "script": "gen_cyclic 2500 100000 gern",
+            "subtask_group": "2",
+            "description": "",
+            "is_example": false,
+            "only_deploy": false
+        },
+        {
+            "script": "gen_cyclic 5000 100000 fbuf",
+            "subtask_group": "2",
+            "description": "",
+            "is_example": false,
+            "only_deploy": false
+        },
+        {
+            "script": "gen_cyclic 25000 100000 asdf",
+            "subtask_group": "2",
+            "description": "",
+            "is_example": false,
+            "only_deploy": false
+        },
+        {
+            "script": "gen_cyclic 25000 100000 gern",
+            "subtask_group": "2",
+            "description": "",
+            "is_example": false,
+            "only_deploy": false
+        },
+        {
+            "script": "gen_cyclic 50000 100000 fbuf",
+            "subtask_group": "2",
+            "description": "",
+            "is_example": false,
+            "only_deploy": false
+        },
+        {
+            "script": "gen_cyclic 50000 100000 faof",
+            "subtask_group": "2",
+            "description": "",
+            "is_example": false,
+            "only_deploy": false
+        },
+        {
+            "script": "gen_cyclic 50000 50000 fwnof",
+            "subtask_group": "2",
+            "description": "",
+            "is_example": false,
+            "only_deploy": false
+        },
+        {
+            "script": "gen_cyclic 50000 50000 vgbnu",
+            "subtask_group": "2",
+            "description": "",
+            "is_example": false,
+            "only_deploy": false
+        },
+        {
+            "script": "gen_sloop2 100000",
+            "subtask_group": "2",
+            "description": "",
+            "is_example": false,
+            "only_deploy": false
+        },
+        {
+            "script": "gen_rand 5000 20000 2",
+            "subtask_group": "3",
+            "description": "",
+            "is_example": false,
+            "only_deploy": false
+        },
+        {
+            "script": "gen_rand 5000 20000 3",
+            "subtask_group": "3",
+            "description": "",
+            "is_example": false,
+            "only_deploy": false
+        },
+        {
+            "script": "gen_rand 5000 20000 4",
+            "subtask_group": "3",
+            "description": "",
+            "is_example": false,
+            "only_deploy": false
+        },
+        {
+            "script": "gen_rand 5000 20000 5",
+            "subtask_group": "3",
+            "description": "",
+            "is_example": false,
+            "only_deploy": false
+        },
+        {
+            "script": "gen_rand 5000 20000 6",
+            "subtask_group": "3",
+            "description": "",
+            "is_example": false,
+            "only_deploy": false
+        },
+        {
+            "script": "gen_randh 50000 100000 10",
+            "subtask_group": "3",
+            "description": "",
+            "is_example": false,
+            "only_deploy": false
+        },
+        {
+            "script": "gen_randh 50000 100000 50",
+            "subtask_group": "3",
+            "description": "",
+            "is_example": false,
+            "only_deploy": false
+        },
+        {
+            "script": "gen_randh 50000 100000 100",
+            "subtask_group": "3",
+            "description": "",
+            "is_example": false,
+            "only_deploy": false
+        },
+        {
+            "script": "gen_randh 25000 100000 1000",
+            "subtask_group": "3",
+            "description": "",
+            "is_example": false,
+            "only_deploy": false
+        },
+        {
+            "script": "gen_randh 50000 100000 1000",
+            "subtask_group": "3",
+            "description": "",
+            "is_example": false,
+            "only_deploy": false
+        },
+        {
+            "script": "__pps_generator 2",
+            "subtask_group": "3",
+            "description": "File \"snipe_f.in\"",
+            "is_example": false,
+            "only_deploy": false
+        },
+        {
+            "script": "gen_sloop1 50000",
+            "subtask_group": "3",
+            "description": "",
+            "is_example": false,
+            "only_deploy": false
+        },
+        {
+            "script": "gen_key 1000 100000",
+            "subtask_group": "3",
+            "description": "",
+            "is_example": false,
+            "only_deploy": false
+        },
+        {
+            "script": "gen_key 5000 100000",
+            "subtask_group": "3",
+            "description": "",
+            "is_example": false,
+            "only_deploy": false
+        },
+        {
+            "script": "gen_key 20000 100000",
+            "subtask_group": "3",
+            "description": "",
+            "is_example": false,
+            "only_deploy": false
+        },
+        {
+            "script": "gen_key 50000 100000",
+            "subtask_group": "3",
+            "description": "",
+            "is_example": false,
+            "only_deploy": false
+        },
+        {
+            "script": "__pps_generator 3",
+            "subtask_group": "3",
+            "description": "File \"snipe_f_tle2.in\"",
+            "is_example": false,
+            "only_deploy": false
+        }
+    ],
+    "versions": {
+        "config": 1,
+        "repository": 1
+    },
+    "deploy_uuid": "ae413a16-9254-49f7-999b-341a2651dd0a"
+}
